@@ -1,0 +1,53 @@
+.consideration-table-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  margin-top: 20px; /* Space from the top */
+}
+
+.consideration-table-container h2,
+.consideration-table-container h1 {
+  text-align: center; /* Center text horizontally */
+  margin-bottom: 80px; /* Space between heading and table */
+}
+
+.table-container {
+  display: flex;
+  justify-content: center; /* Center the table horizontally */
+  width: 100%; /* Ensure full width for centering */
+}
+
+table {
+  border-collapse: collapse;
+  width: auto; /* Adjust width as needed */
+  background-color: #d4edda; /* Light green color for table background */
+}
+
+th, td {
+  border: 2px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #98beca; /* Light blue color for table headers */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.submit, .skip {
+  background-color: green; /* Change to green for submit button */
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.skip {
+  background-color: blue; /* Blue for skip button */
+}
